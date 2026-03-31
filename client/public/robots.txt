@@ -1,0 +1,100 @@
+# AiVIS — AI Visibility Intelligence Systems
+# https://aivis.biz
+
+User-agent: *
+Allow: /
+
+# Public marketing / trust / workflow pages
+Allow: /pricing
+Allow: /guide
+Allow: /workflow
+Allow: /methodology
+Allow: /compliance
+Allow: /insights
+Allow: /faq
+Allow: /compare
+Allow: /reports
+Allow: /keywords
+Allow: /competitors
+Allow: /citations
+Allow: /reverse-engineer
+Allow: /prompt-intelligence
+Allow: /answer-presence
+Allow: /brand-integrity
+Allow: /press
+Allow: /indexing
+
+# Private / auth-required routes
+Disallow: /auth
+Disallow: /reset-auth
+Disallow: /profile
+Disallow: /settings
+Disallow: /billing
+Disallow: /analytics
+Disallow: /referrals
+Disallow: /notifications
+Disallow: /niche-discovery
+Disallow: /mcp
+Disallow: /team
+Disallow: /admin
+Disallow: /payment-success
+Disallow: /payment-canceled
+Disallow: /verify-email
+
+# Internal API
+Disallow: /api/
+
+# Private report pages
+Disallow: /report/
+Allow: /report/public/
+
+Sitemap: https://aivis.biz/sitemap.xml
+
+# AI / search fetchers you want to allow explicitly
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Bytespider
+Allow: /
